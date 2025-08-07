@@ -9,13 +9,21 @@
     "build": "tsc",
     "dev": "ts-node src/app.ts"
   },
-  "keywords": ["typescript", "node", "exercises"],
+  "keywords": [
+    "typescript",
+    "node",
+    "exercises"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^20.0.0",
     "nodemon": "^3.0.0",
     "ts-node": "^10.9.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
